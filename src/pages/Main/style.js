@@ -27,9 +27,9 @@ export const User = styled.View`
 `;
 
 export const Avatar = styled.Image`
-  margin-top: 20px
-  width: 40px;
-  height: 40px;
+  margin-top: 10px;
+  width: 70px;
+  height: 70px;
   align-items: center;
   border-radius: 4px;
   background: #eee;

@@ -32,7 +32,7 @@ export default class Main extends Component {
             <Card>
               <User>
                 <Avatar source={{uri: item.avatar}} />
-                <Name>{item.name}</Name>
+                <Name testID="row">{item.name}</Name>
                 <Position>{item.position}</Position>
               </User>
             </Card>
