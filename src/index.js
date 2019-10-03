@@ -1,5 +1,4 @@
 import React from 'react';
-// import {SafeAreaView, ScrollView, View, Text, StatusBar} from 'react-native';
 import {Header} from 'react-native-elements';
 import Main from './pages/Main';
 
@@ -8,7 +7,7 @@ export default function App() {
     <>
       <Header
         statusBarProps={{barStyle: 'light-content'}}
-        barStyle="light-content" // or directly
+        barStyle="light-content"
         centerComponent={{text: 'App Wooza', style: {color: '#fff'}}}
         containerStyle={{
           backgroundColor: '#333',

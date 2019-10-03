@@ -9,6 +9,10 @@ export default class Main extends Component {
   }
 
   async componentDidMount() {
+    this.loadData();
+  }
+
+  async loadData() {
     try {
       const response = await api.get();
       this.setState({users: response.data});
